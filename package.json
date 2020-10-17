@@ -1,0 +1,32 @@
+{
+  "name": "mofh-client",
+  "version": "1.0.2",
+  "description": "A MyOwnFreeHost client that you can use with server-side javascript",
+  "license": "MIT",
+  "author": "Sebastian Rugina <dev@srugina.com> (https://srugina.com)",
+  "repository": "github:srugina/mofh-client",
+  "main": "index.js",
+  "scripts": {
+    "prepack": "./node_modules/.bin/minify index.js --out-file index.js"
+  },
+  "keywords": [
+    "mofh",
+    "myownfreehost",
+    "My Own Free Host",
+    "my own free host",
+    "client",
+    "npm",
+    "package",
+    "srugina",
+    "sebr"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "querystring": "^0.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "babel-minify": "^0.5.0"
+  }
+}
